@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="don_t_remember_password">Don\'t Remember password?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="or">or</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="username">
+        <item>Image1</item>
+        <item>Image2</item>
+        <item>Image3</item>
+        <item>Image4</item>
+        <item>Image5</item>
+        <item>Image6</item>
+        <item>Image7</item>
+        <item>Image8</item>
+        <item>Image9</item>
+        <item>Image10</item>
+    </string-array>
+</resources>
