@@ -95,7 +95,6 @@ public class RegisterActivity extends AppCompatActivity {
                             user.setGender(gender);
                             user.setImageurl("https://cdn1.vectorstock.com/i/1000x1000/23/70/default-avatar-profile-icon-vector-18942370.jpg");
 
-
 //                            HashMap<String, Object> hashMap= new HashMap<>();
 //                            hashMap.put("id", userid);
 //                            hashMap.put("username", username);

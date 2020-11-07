@@ -26,6 +26,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.instagramclone.Adapter.PhotosAdapter;
+import com.example.instagramclone.EditProfileActivity;
 import com.example.instagramclone.HomeActivity;
 import com.example.instagramclone.MainActivity;
 import com.example.instagramclone.Model.Post;
@@ -112,7 +113,8 @@ public class ProfileFragment extends Fragment {
             public void onClick(View v) {
                 String btn = edit_pro.getText().toString();
                 if (btn.equals("Edit Profile")) {
-                    //go to edit profile
+                    //go to profile
+                    startActivity(new Intent(getContext(), EditProfileActivity.class));
                 } else if (btn.equals("Follow")) {
                     FirebaseDatabase.getInstance().getReference().child("Follow").child(firebaseUser.getUid())
                             .child("Following").child(profileid).setValue(true);
